@@ -1,0 +1,45 @@
+.content-home .content .container .news-and-ads-container .ads .ad {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content-home .content .container .news-and-ads-container .ads .ad::before { 
+    content: 'Advertisment.';
+    text-decoration: underline;
+}
+/*----------------------------------------------------------*/
+.content-home .content .container {
+    margin: 100px;
+}
+.content-home .content .container .news-and-ads-container {
+    display: flex;
+    flex-direction: row;
+}
+.content-home .content .container .news-and-ads-container .fut-news {
+    margin-right: 50px;
+}
+.content-home .content .container .news-and-ads-container .fut-news .fut-new{
+    border-top: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 275px;
+    margin-bottom: 10px;
+}
+.content-home .content .container .news-and-ads-container .fut-news .fut-new:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    border-bottom: 4px solid black;
+    color: rgb(59, 59, 59);
+}
+.content-home .content .container .news-and-ads-container .fut-news .fut-new .img-fut img {
+    height: 200px;
+    border-radius: 10px;
+}
+.content-home .content .container .news-and-ads-container .fut-news .fut-new .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
