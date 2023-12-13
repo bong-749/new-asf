@@ -1,2 +1,2 @@
-# bong-749.github.io
+https://bong-749.github.io
 Trelea NewsASF
